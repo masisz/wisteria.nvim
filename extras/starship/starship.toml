@@ -1,0 +1,53 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Sets user-defined palette
+# Palettes must be defined _after_ this line
+palette = "wisteria"
+
+# Starship modules
+[character]
+success_symbol = "[ ❯](blue)"
+error_symbol = "[ ❯](red)"
+vimcmd_symbol = "[ ❮](bright_black)" # For use with zsh-vi-mode
+
+[git_branch]
+style = "bold green"
+
+[directory]
+truncation_length = 4
+style = "bold blue"
+
+# Palette definitions - matched to wezterm theme colors
+[palettes.wisteria]
+# Primary colors from wezterm
+background = "#001217"
+foreground = "#c5c5c5"
+
+# Normal ANSI colors from wezterm
+black = "#003545"
+red = "#c44f4f"
+green = "#8ab020"
+yellow = "#e6d5a8"
+blue = "#8fadce"
+magenta = "#ddc8f2"
+cyan = "#8ed49a"
+white = "#f5ead5"
+
+# Bright ANSI colors from wezterm
+bright_black = "#5a7580"
+bright_red = "#bd3613"
+bright_green = "#5a7580"
+bright_yellow = "#6a8088"
+bright_blue = "#8fa8aa"
+bright_magenta = "#7068d0"
+bright_cyan = "#a0b5b5"
+bright_white = "#fffdf0"
+
+# Semantic color aliases for starship usage
+text = "#c5c5c5"
+base = "#001217"
+surface0 = "#003545"
+surface1 = "#5a7580"
+cursor = "#8fa8aa"
+selection = "#a0b5b5"
