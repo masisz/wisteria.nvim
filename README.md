@@ -3,7 +3,7 @@
 Other Languages
 [🇯🇵](./README.ja.md)
 
-![ScreenShot](https://github.com/user-attachments/assets/57e38997-1022-4047-bb73-98869a71adaf)
+![ScreenShot](./images/wisteria.png)
 
 ## 🎨 Design
 
