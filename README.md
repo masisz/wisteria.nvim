@@ -43,6 +43,8 @@ This colorscheme is designed for [LazyVim](https://www.lazyvim.org) and supports
   name = "wisteria",
   opts = {
     transparent = true,
+		---@type fun(colors:WisteriaColors):HighlightSpec
+		overrides = function(colors) return {} end,
   },
 },
 {

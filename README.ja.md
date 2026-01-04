@@ -43,6 +43,8 @@ Wisteriaは、透明な端末環境での視認性を向上させるため、明
   name = "wisteria",
   opts = {
     transparent = true,
+		---@type fun(colors:WisteriaColors):HighlightSpec
+		overrides = function(colors) return {} end,
   },
 },
 {
