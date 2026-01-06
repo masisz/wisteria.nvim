@@ -1,5 +1,6 @@
 local hsl = require("wisteria.lib.hsl")
 
+---@class WisteriaColors
 local COLOR = {}
 
 COLOR.wst = {
