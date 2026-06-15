@@ -42,6 +42,7 @@ Wisteriaは、透明な端末環境での視認性を向上させるため、明
   "masisz/wisteria.nvim",
   name = "wisteria",
   opts = {
+    style = "dark", -- "dark" または "light"
     transparent = true,
     ---@type fun(colors:WisteriaColors):HighlightSpec
     overrides = function(colors) return {} end,
@@ -54,6 +55,8 @@ Wisteriaは、透明な端末環境での視認性を向上させるため、明
   },
 }
 ```
+
+Lightテーマを使う場合は `style = "light"` を指定します。背景色はSolarized Lightの `#fdf6e3` をベースにしています。
 
 ## 🎨 追加テーマ
 

@@ -42,6 +42,7 @@ This colorscheme is designed for [LazyVim](https://www.lazyvim.org) and supports
   "masisz/wisteria.nvim",
   name = "wisteria",
   opts = {
+    style = "dark", -- "dark" or "light"
     transparent = true,
     ---@type fun(colors:WisteriaColors):HighlightSpec
     overrides = function(colors) return {} end,
@@ -54,6 +55,8 @@ This colorscheme is designed for [LazyVim](https://www.lazyvim.org) and supports
   },
 }
 ```
+
+Use `style = "light"` for the light theme. Its background is based on Solarized Light's `#fdf6e3`.
 
 ## 🎨 Extras
 

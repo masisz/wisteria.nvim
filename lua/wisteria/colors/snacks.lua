@@ -17,7 +17,7 @@ function M.setup()
 	util.highlight("SnacksDashboardDir", { fg = color.wst.watarase_blue })
 
 	util.highlight("SnacksPickerDirectory", { fg = color.wst.watarase_blue })
-	util.highlight("SnacksPickerFile", { fg = color.wst.white })
+	util.highlight("SnacksPickerFile", { fg = color.wst.fg })
 	util.highlight("SnacksPickerGitStatusUntracked", { fg = color.wst.flower_fuji })
 end
 

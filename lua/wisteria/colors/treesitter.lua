@@ -11,22 +11,27 @@ function M.setup()
 	util.highlight("@type", { fg = color.wst.flower_fuji })
 	util.highlight("@constructor", { fg = color.wst.omugi_gold })
 	util.highlight("@class", { fg = color.wst.flower_fuji })
-	util.highlight("@variable", { fg = color.wst.white })
+	util.highlight("@variable", { fg = color.wst.fg })
 	util.highlight("@variable.builtin", { fg = color.wst.orihime_red })
 	util.highlight("@variable.parameter", { fg = color.wst.omugi_gold })
 	util.highlight("@variable.parameter.builtin", { fg = color.wst.orihime_red })
 	util.highlight("@variable.member", { fg = color.wst.sky })
-	util.highlight("@punctuation.bracket", { fg = color.wst.gray })
+	util.highlight("@punctuation.bracket", { fg = color.wst.fg_muted })
 
 	util.highlight("@keyword", { fg = color.wst.flower_fuji })
 	util.highlight("@keyword.import", { fg = color.wst.flower_fuji })
 	util.highlight("@keyword.coroutine", { fg = color.wst.flower_fuji })
 	util.highlight("@keyword.function", { fg = color.wst.watarase_blue })
+	util.highlight("@function.macro", { fg = color.wst.watarase_blue })
+	util.highlight("@function.macro.rust", { fg = color.wst.watarase_blue })
+	util.highlight("@macro", { fg = color.wst.watarase_blue })
+	util.highlight("@macro.rust", { fg = color.wst.watarase_blue })
+	util.highlight("@lsp.type.macro.rust", { fg = color.wst.watarase_blue })
 
-	local todo = { fg = color.wst.white, bg = color.wst.watarase_blue }
-	local note = { fg = color.wst.white, bg = color.wst.info_blue }
-	local warning = { fg = color.wst.hanabi_night, bg = color.wst.warning_orange }
-	local error = { fg = color.wst.white, bg = color.wst.error_red }
+	local todo = { fg = color.wst.bg, bg = color.wst.watarase_blue }
+	local note = { fg = color.wst.bg, bg = color.wst.info_blue }
+	local warning = { fg = color.wst.bg, bg = color.wst.warning_orange }
+	local error = { fg = color.wst.bg, bg = color.wst.error_red }
 
 	-- comment
 	util.highlight("@comment.todo", todo)
@@ -45,12 +50,12 @@ function M.setup()
 	util.highlight("@markup.heading.2.markdown", { fg = color.wst.flower_fuji, bold = true })
 	util.highlight("@markup.heading.3.markdown", { fg = color.wst.omugi_gold, bold = true })
 	util.highlight("@markup.heading.4.markdown", { fg = color.wst.icho_green, bold = true })
-	util.highlight("@markup.heading.5.markdown", { fg = color.wst.white, bold = true })
-	util.highlight("@markup.heading.6.markdown", { fg = color.wst.white, bold = true })
+	util.highlight("@markup.heading.5.markdown", { fg = color.wst.fg, bold = true })
+	util.highlight("@markup.heading.6.markdown", { fg = color.wst.fg, bold = true })
 
 	-- markup
-	util.highlight("@markup", { fg = color.wst.white })
-	util.highlight("@markup.list", { fg = color.wst.white })
+	util.highlight("@markup", { fg = color.wst.fg })
+	util.highlight("@markup.list", { fg = color.wst.fg })
 	util.highlight("@markup.list.checked", { fg = color.wst.icho_green })
 	util.highlight("@markup.list.unchecked", { fg = color.wst.icho_green })
 	util.highlight("@markup.link", { fg = color.wst.flower_fuji })
