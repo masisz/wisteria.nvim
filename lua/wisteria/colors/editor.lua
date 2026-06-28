@@ -42,6 +42,7 @@ function M.setup()
 	util.highlight("DiagnosticWarn", { fg = color.wst.warning_orange })
 	util.highlight("DiagnosticInfo", { fg = color.wst.info_blue })
 	util.highlight("DiagnosticHint", { fg = color.wst.sky })
+	util.highlight("LspInlayHint", { fg = color.wst.fg_muted })
 
 	util.highlight("Search", { bg = color.wst.watarase_blue_light, fg = color.wst.fg })
 	util.highlight("IncSearch", { bg = color.wst.omugi_gold_light, fg = color.wst.fg })
