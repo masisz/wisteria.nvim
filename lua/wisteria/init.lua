@@ -15,7 +15,8 @@ M.config = vim.deepcopy(DEFAULT_CONFIG)
 function M.setup(config)
 	M.config = vim.tbl_deep_extend("force", vim.deepcopy(DEFAULT_CONFIG), config or {})
 	if M.config.transparent == nil then
-		M.config.transparent = M.config.style ~= "light"
+		local is_gui = vim.g.neovide ~= nil or vim.fn.has("gui_running") == 1
+		M.config.transparent = not is_gui and (M.config.style ~= "light")
 	end
 
 	vim.cmd("highlight clear")

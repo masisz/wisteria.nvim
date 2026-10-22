@@ -22,6 +22,8 @@ This colorscheme is designed for [LazyVim](https://www.lazyvim.org) and supports
   - snacks
   - markdown
   - gitsigns
+- Language-specific support:
+  - GDScript
 - Extra themes for terminal and prompt:
   - WezTerm
   - Starship

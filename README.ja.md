@@ -22,6 +22,8 @@ Wisteriaは、透明な端末環境での視認性を向上させるため、明
   - snacks
   - markdown
   - gitsigns
+- 言語別サポート:
+  - GDScript
 - ターミナルとプロンプト用の追加テーマ:
   - WezTerm
   - Starship
