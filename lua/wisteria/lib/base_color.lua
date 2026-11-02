@@ -16,7 +16,7 @@ COLOR.dark = {
 	fg = hsl.hsl_to_hex(50, 20, 92),
 	fg_muted = hsl.hsl_to_hex(50, 15, 82),
 	fg_subtle = hsl.hsl_to_hex(0, 0, 78),
-	cursorline = hsl.hsl_to_hex(216, 35, 43),
+	cursorline = hsl.hsl_to_hex(202, 10, 20),
 	selection = hsl.hsl_to_hex(270, 50, 45),
 
 	-- basic colors
